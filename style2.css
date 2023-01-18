@@ -1,0 +1,57 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    direction: rtl;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 400px;
+    border: 0.8px solid rgba(42, 41, 41, 0.205);
+    border-radius: 8px;
+    padding: 32px;
+}
+
+main div img {
+    width: 150px;
+    height: 40px;
+}
+
+.p-f-size {
+    margin: 2px;
+    font-size: 12px;
+}
+
+.form-h {
+    height: 48.25px;
+    margin-top: 5px;
+    border-radius: 7.8px;
+}
+
+.input {
+    
+    border: 1px solid rgba(70, 166, 185, 0.667);
+    width: 21rem !important;
+    height: 3.2rem;
+    border-radius: 7px;
+    outline: none;
+}
+
+main div span {
+    font-size: 11px;
+}
+
+a {
+    color: rgb(38, 139, 172);
+    text-decoration: none;
+}
+
+#eror {
+    color: rgb(187, 29, 29);
+    font-size: 12px;
+}
